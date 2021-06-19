@@ -28,8 +28,8 @@ const Menu = () => {
             Link
           </Nav.Link> */}
         </Nav>
-        <Nav.Link href=""><Button variant="outline-dark">Login</Button></Nav.Link>
-        <Nav.Link href=""><Button variant="dark">Signup</Button></Nav.Link>
+        <LinkContainer to="/login"><Nav.Link><Button variant="outline-dark">Signin</Button></Nav.Link></LinkContainer>
+        <LinkContainer to="/register"><Nav.Link><Button variant="dark">Register</Button></Nav.Link></LinkContainer>
       </Navbar.Collapse>
       </Container>
     </Navbar>
